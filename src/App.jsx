@@ -48,7 +48,6 @@ function App() {
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="bookings" element={<Bookings />} />
               <Route path="bookings/:bookingId" element={<Booking />} />
-              bo
               <Route path="checkin/:bookingId" element={<CheckIn />} />
               <Route path="users" element={<Users />} />
               <Route path="account" element={<Account />} />
