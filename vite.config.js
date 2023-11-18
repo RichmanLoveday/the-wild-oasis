@@ -6,8 +6,10 @@ import eslint from 'vite-plugin-eslint';
 export default defineConfig({
   plugins: [react(), eslint()],
 
-  rollupOptions: {
-    external: ['react-error-boundary'],
+  build: {
+    rollupOptions: {
+      external: ['react-error-boundary'],
+    },
   },
 })
 
